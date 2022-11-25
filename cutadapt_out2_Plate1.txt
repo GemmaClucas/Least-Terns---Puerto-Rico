@@ -1,0 +1,3264 @@
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-2_S28_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-2_S28_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-2_S28_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-2_S28_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.02 s (89 µs/read; 0.67 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                178
+  Read 1 with adapter:                       5 (2.8%)
+  Read 2 with adapter:                     173 (97.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):           178 (100.0%)
+
+Total basepairs processed:        53,025 bp
+  Read 1:         9,663 bp
+  Read 2:        43,362 bp
+Total written (filtered):         48,255 bp (91.0%)
+  Read 1:         9,563 bp
+  Read 2:        38,692 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 5 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	5	0.0	2	0 0 5
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 173 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	2	0.0	2	0 0 2
+27	170	0.0	2	2 134 34
+28	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-3_S47_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-3_S47_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-3_S47_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-3_S47_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.01 s (88 µs/read; 0.68 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                150
+  Read 1 with adapter:                       0 (0.0%)
+  Read 2 with adapter:                     150 (100.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):           150 (100.0%)
+
+Total basepairs processed:        38,550 bp
+  Read 1:           900 bp
+  Read 2:        37,650 bp
+Total written (filtered):         34,500 bp (89.5%)
+  Read 1:           900 bp
+  Read 2:        33,600 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 0 times
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 150 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+27	150	0.0	2	0 123 27
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR1_S3_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR1_S3_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR1_S3_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR1_S3_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.08 s (22 µs/read; 2.72 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              3,556
+  Read 1 with adapter:                   3,555 (100.0%)
+  Read 2 with adapter:                   3,551 (99.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         3,556 (100.0%)
+
+Total basepairs processed:     1,372,022 bp
+  Read 1:       675,843 bp
+  Read 2:       696,179 bp
+Total written (filtered):      1,201,537 bp (87.6%)
+  Read 1:       601,221 bp
+  Read 2:       600,316 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 3555 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	1	0.0	1	0 0 1
+20	34	0.0	2	2 31 1
+21	3517	0.0	2	3465 52
+22	3	0.0	2	0 3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 3551 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	1	0.0	2	0 0 1
+26	22	0.0	2	0 22
+27	3518	0.0	2	3456 59 3
+28	10	0.0	2	1 9
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR10_S13_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR10_S13_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR10_S13_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR10_S13_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.01 s (372 µs/read; 0.16 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                 25
+  Read 1 with adapter:                      23 (92.0%)
+  Read 2 with adapter:                       5 (20.0%)
+Pairs that were too short:                   2 (8.0%)
+Pairs written (passing filters):            23 (92.0%)
+
+Total basepairs processed:         6,794 bp
+  Read 1:         5,641 bp
+  Read 2:         1,153 bp
+Total written (filtered):          6,164 bp (90.7%)
+  Read 1:         5,142 bp
+  Read 2:         1,022 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 23 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	20	0.0	2	0 0 20
+21	3	0.0	2	3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 5 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	2	0.0	2	0 0 2
+27	3	0.0	2	3
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR12_S15_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR12_S15_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR12_S15_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR12_S15_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.86 s (19 µs/read; 3.11 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             44,730
+  Read 1 with adapter:                  44,338 (99.1%)
+  Read 2 with adapter:                  44,440 (99.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        44,730 (100.0%)
+
+Total basepairs processed:    17,217,363 bp
+  Read 1:     8,437,045 bp
+  Read 2:     8,780,318 bp
+Total written (filtered):     15,086,825 bp (87.6%)
+  Read 1:     7,506,316 bp
+  Read 2:     7,580,509 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 44338 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	8	0.0	1	0 3 5
+20	477	0.0	2	33 433 11
+21	43729	0.0	2	42118 1565 46
+22	124	0.0	2	6 115 3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 44440 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+24	1	0.0	2	0 0 1
+25	8	0.0	2	1 0 7
+26	233	0.0	2	10 214 9
+27	44042	0.0	2	42160 1658 224
+28	152	0.0	2	5 143 4
+29	1	0.0	2	0 1
+46	1	0.0	2	1
+50	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR13_S16_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR13_S16_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR13_S16_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR13_S16_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.03 s (53 µs/read; 1.14 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                653
+  Read 1 with adapter:                     650 (99.5%)
+  Read 2 with adapter:                     648 (99.2%)
+Pairs that were too short:                   2 (0.3%)
+Pairs written (passing filters):           651 (99.7%)
+
+Total basepairs processed:       250,954 bp
+  Read 1:       123,477 bp
+  Read 2:       127,477 bp
+Total written (filtered):        219,779 bp (87.6%)
+  Read 1:       109,794 bp
+  Read 2:       109,985 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 650 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	4	0.0	2	0 4
+21	645	0.0	2	640 5
+22	1	0.0	2	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 648 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	6	0.0	2	0 6
+27	640	0.0	2	631 9
+28	2	0.0	2	0 2
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR14_S17_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR14_S17_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR14_S17_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR14_S17_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 3.29 s (19 µs/read; 3.23 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            176,999
+  Read 1 with adapter:                 176,454 (99.7%)
+  Read 2 with adapter:                 175,947 (99.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):       176,999 (100.0%)
+
+Total basepairs processed:    68,498,392 bp
+  Read 1:    33,709,098 bp
+  Read 2:    34,789,294 bp
+Total written (filtered):     60,043,273 bp (87.7%)
+  Read 1:    30,005,155 bp
+  Read 2:    30,038,118 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 176454 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	1	2.7	0	1
+13	1	0.0	1	1
+15	1	0.0	1	1
+17	2	0.0	1	1 1
+18	5	0.0	1	3 2
+19	79	0.0	1	9 28 42
+20	1995	0.0	2	130 1825 40
+21	173779	0.0	2	168546 5070 163
+22	587	0.0	2	29 548 10
+23	3	0.0	2	0 1 2
+40	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 175947 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	3	0.0	1	3
+14	3	0.0	1	1 2
+17	1	0.0	1	0 1
+18	1	0.0	1	0 1
+21	1	0.0	2	0 0 1
+22	1	0.0	2	0 1
+23	2	0.0	2	0 0 2
+24	9	0.0	2	4 1 4
+25	74	0.0	2	4 8 62
+26	911	0.0	2	46 852 13
+27	173661	0.0	2	170508 2856 297
+28	761	0.0	2	25 662 74
+29	518	0.0	2	0 1 517
+45	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR15_S18_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR15_S18_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR15_S18_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR15_S18_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 2.11 s (18 µs/read; 3.39 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            119,063
+  Read 1 with adapter:                 117,848 (99.0%)
+  Read 2 with adapter:                 117,833 (99.0%)
+Pairs that were too short:                   3 (0.0%)
+Pairs written (passing filters):       119,060 (100.0%)
+
+Total basepairs processed:    46,027,035 bp
+  Read 1:    22,520,238 bp
+  Read 2:    23,506,797 bp
+Total written (filtered):     40,371,245 bp (87.7%)
+  Read 1:    20,046,695 bp
+  Read 2:    20,324,550 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 117848 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	1
+18	4	0.0	1	1 1 2
+19	77	0.0	1	5 18 54
+20	1497	0.0	2	93 1352 52
+21	115883	0.0	2	110872 4815 196
+22	380	0.0	2	18 346 16
+23	4	0.0	2	0 1 3
+27	1	0.0	2	1
+29	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 117833 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+14	1	0.0	1	1
+15	2	0.0	1	0 2
+17	1	0.0	1	0 1
+19	1	0.0	1	0 1
+22	2	0.0	2	2
+24	5	0.0	2	2 3
+25	42	0.0	2	4 3 35
+26	637	0.0	2	34 584 19
+27	116124	0.0	2	111577 3855 692
+28	475	0.0	2	13 440 22
+29	541	0.0	2	0 0 541
+42	1	0.0	2	0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR16_S19_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR16_S19_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR16_S19_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR16_S19_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 1.83 s (18 µs/read; 3.34 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            101,722
+  Read 1 with adapter:                 101,467 (99.7%)
+  Read 2 with adapter:                 100,812 (99.1%)
+Pairs that were too short:                 168 (0.2%)
+Pairs written (passing filters):       101,554 (99.8%)
+
+Total basepairs processed:    39,791,060 bp
+  Read 1:    19,581,987 bp
+  Read 2:    20,209,073 bp
+Total written (filtered):     34,938,720 bp (87.8%)
+  Read 1:    17,451,595 bp
+  Read 2:    17,487,125 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 101467 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	1	1.6	0	1
+15	3	0.0	1	3
+18	1	0.0	1	1
+19	49	0.0	1	4 9 36
+20	1051	0.0	2	64 953 34
+21	100054	0.0	2	96428 3497 129
+22	308	0.0	2	16 277 15
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 100812 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+14	1	0.0	1	0 1
+16	1	0.0	1	1
+17	1	0.0	1	0 1
+18	1	0.0	1	0 1
+22	1	0.0	2	0 1
+23	1	0.0	2	1
+24	4	0.0	2	2 2
+25	32	0.0	2	4 4 24
+26	446	0.0	2	21 403 22
+27	99989	0.0	2	95384 3795 810
+28	333	0.0	2	21 302 10
+29	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR17_S20_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR17_S20_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR17_S20_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR17_S20_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.03 s (37 µs/read; 1.61 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                762
+  Read 1 with adapter:                     705 (92.5%)
+  Read 2 with adapter:                     758 (99.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):           762 (100.0%)
+
+Total basepairs processed:       287,487 bp
+  Read 1:       134,760 bp
+  Read 2:       152,727 bp
+Total written (filtered):        252,223 bp (87.7%)
+  Read 1:       119,956 bp
+  Read 2:       132,267 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 705 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	3	0.0	2	0 2 1
+21	700	0.0	2	664 36
+22	2	0.0	2	0 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 758 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	9	0.0	2	2 6 1
+27	747	0.0	2	678 64 5
+28	1	0.0	2	0 1
+29	1	0.0	2	0 0 1
+Running external command line application. This may print messages to stdout and/or stderr.
+The commands to be run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-2_S28_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-2_S28_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-2_S28_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-2_S28_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-3_S47_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/BLANK_21-3_S47_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-3_S47_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/BLANK_21-3_S47_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR1_S3_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR1_S3_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR1_S3_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR1_S3_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR10_S13_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR10_S13_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR10_S13_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR10_S13_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR12_S15_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR12_S15_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR12_S15_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR12_S15_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR13_S16_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR13_S16_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR13_S16_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR13_S16_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR14_S17_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR14_S17_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR14_S17_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR14_S17_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR15_S18_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR15_S18_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR15_S18_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR15_S18_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR16_S19_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR16_S19_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR16_S19_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR16_S19_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR17_S20_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR17_S20_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR17_S20_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR17_S20_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR18_S21_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR18_S21_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR18_S21_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR18_S21_L002_R2_001.fastq.gzThis is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR18_S21_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR18_S21_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR18_S21_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR18_S21_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.82 s (19 µs/read; 3.18 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             43,428
+  Read 1 with adapter:                  43,367 (99.9%)
+  Read 2 with adapter:                  43,017 (99.1%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        43,428 (100.0%)
+
+Total basepairs processed:    17,220,237 bp
+  Read 1:     8,493,107 bp
+  Read 2:     8,727,130 bp
+Total written (filtered):     15,148,454 bp (88.0%)
+  Read 1:     7,582,790 bp
+  Read 2:     7,565,664 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 43367 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	5	0.0	1	3 2
+19	21	0.0	1	4 2 15
+20	448	0.0	2	27 414 7
+21	42786	0.0	2	41409 1338 39
+22	106	0.0	2	2 98 6
+30	1	0.0	2	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 43017 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+14	1	0.0	1	1
+16	2	0.0	1	0 2
+25	14	0.0	2	1 1 12
+26	275	0.0	2	11 203 61
+27	42475	0.0	2	40851 1384 240
+28	163	0.0	2	5 149 9
+29	85	0.0	2	0 0 85
+54	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR19_S22_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR19_S22_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR19_S22_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR19_S22_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.05 s (25 µs/read; 2.41 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              2,042
+  Read 1 with adapter:                   2,038 (99.8%)
+  Read 2 with adapter:                   2,031 (99.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         2,042 (100.0%)
+
+Total basepairs processed:       737,088 bp
+  Read 1:       362,914 bp
+  Read 2:       374,174 bp
+Total written (filtered):        639,457 bp (86.8%)
+  Read 1:       320,123 bp
+  Read 2:       319,334 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 2038 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	1	0.0	1	0 0 1
+20	13	0.0	2	0 10 3
+21	2016	0.0	2	1708 296 12
+22	8	0.0	2	0 2 6
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 2031 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	1	0.0	2	0 0 1
+26	14	0.0	2	0 14
+27	2005	0.0	2	1950 44 11
+28	2	0.0	2	0 2
+29	9	0.0	2	0 0 9
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR2_S4_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR2_S4_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR2_S4_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR2_S4_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.24 s (19 µs/read; 3.24 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             13,141
+  Read 1 with adapter:                  13,124 (99.9%)
+  Read 2 with adapter:                  13,005 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        13,141 (100.0%)
+
+Total basepairs processed:     5,111,082 bp
+  Read 1:     2,519,923 bp
+  Read 2:     2,591,159 bp
+Total written (filtered):      4,484,445 bp (87.7%)
+  Read 1:     2,244,418 bp
+  Read 2:     2,240,027 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 13124 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	4	0.0	1	0 0 4
+20	135	0.0	2	13 118 4
+21	12941	0.0	2	12626 291 24
+22	44	0.0	2	1 40 3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 13005 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	3	0.0	2	3
+25	6	0.0	2	0 0 6
+26	48	0.0	2	3 41 4
+27	12916	0.0	2	12418 420 78
+28	30	0.0	2	2 28
+29	1	0.0	2	0 0 1
+61	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR20_S23_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR20_S23_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR20_S23_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR20_S23_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.05 s (28 µs/read; 2.17 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              1,967
+  Read 1 with adapter:                   1,955 (99.4%)
+  Read 2 with adapter:                   1,956 (99.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         1,967 (100.0%)
+
+Total basepairs processed:       760,707 bp
+  Read 1:       375,780 bp
+  Read 2:       384,927 bp
+Total written (filtered):        666,834 bp (87.7%)
+  Read 1:       334,734 bp
+  Read 2:       332,100 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 1955 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	15	0.0	2	2 13
+21	1934	0.0	2	1896 36 2
+22	6	0.0	2	0 5 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 1956 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	11	0.0	2	0 11
+27	1928	0.0	2	1885 40 3
+28	8	0.0	2	0 8
+29	9	0.0	2	0 0 9
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR21_S24_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR21_S24_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR21_S24_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR21_S24_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 2.10 s (18 µs/read; 3.29 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            114,868
+  Read 1 with adapter:                 113,648 (98.9%)
+  Read 2 with adapter:                 113,462 (98.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):       114,868 (100.0%)
+
+Total basepairs processed:    44,302,779 bp
+  Read 1:    21,694,408 bp
+  Read 2:    22,608,371 bp
+Total written (filtered):     38,854,470 bp (87.7%)
+  Read 1:    19,309,166 bp
+  Read 2:    19,545,304 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 113648 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	0 1
+16	1	0.0	1	1
+17	2	0.0	1	2
+18	5	0.0	1	4 0 1
+19	81	0.0	1	9 15 57
+20	1487	0.0	2	90 1346 51
+21	111757	0.0	2	106781 4784 192
+22	311	0.0	2	13 282 16
+23	2	0.0	2	0 0 2
+24	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 113462 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	3	0.0	1	3
+15	4	0.0	1	0 4
+16	1	0.0	1	1
+17	2	0.0	1	0 2
+18	4	0.0	1	0 4
+19	1	0.0	1	0 1
+21	1	0.0	2	0 0 1
+22	2	0.0	2	0 1 1
+23	2	0.0	2	2
+25	28	0.0	2	1 2 25
+26	670	0.0	2	37 547 86
+27	112323	0.0	2	107135 4492 696
+28	406	0.0	2	16 372 18
+29	12	0.0	2	0 0 12
+34	1	0.0	2	1
+61	2	0.0	2	2
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR22_S25_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR22_S25_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR22_S25_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR22_S25_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.46 s (18 µs/read; 3.26 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             24,832
+  Read 1 with adapter:                  24,599 (99.1%)
+  Read 2 with adapter:                  24,652 (99.3%)
+Pairs that were too short:                   1 (0.0%)
+Pairs written (passing filters):        24,831 (100.0%)
+
+Total basepairs processed:     9,737,899 bp
+  Read 1:     4,775,386 bp
+  Read 2:     4,962,513 bp
+Total written (filtered):      8,556,029 bp (87.9%)
+  Read 1:     4,259,113 bp
+  Read 2:     4,296,916 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 24599 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	1	0.0	1	0 1
+19	15	0.0	1	3 5 7
+20	376	0.0	2	37 331 8
+21	24113	0.0	2	22987 1084 42
+22	93	0.0	2	7 83 3
+31	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 24652 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	2	0.0	1	2
+25	8	0.0	2	0 1 7
+26	178	0.0	2	11 128 39
+27	24315	0.0	2	23367 811 137
+28	93	0.0	2	6 84 3
+29	56	0.0	2	0 0 56
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR23_S26_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR23_S26_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR23_S26_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR23_S26_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.08 s (22 µs/read; 2.67 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              3,373
+  Read 1 with adapter:                   3,370 (99.9%)
+  Read 2 with adapter:                   3,349 (99.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         3,373 (100.0%)
+
+Total basepairs processed:     1,317,406 bp
+  Read 1:       649,113 bp
+  Read 2:       668,293 bp
+Total written (filtered):      1,156,276 bp (87.8%)
+  Read 1:       578,406 bp
+  Read 2:       577,870 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 3370 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	6	0.0	1	0 3 3
+20	53	0.0	2	1 52
+21	3309	0.0	2	3188 116 5
+22	2	0.0	2	0 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 3349 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	11	0.0	2	2 9
+27	3327	0.0	2	3256 68 3
+28	11	0.0	2	0 10 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR24_S27_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR24_S27_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR24_S27_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR24_S27_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 4.58 s (19 µs/read; 3.19 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            243,544
+  Read 1 with adapter:                 242,597 (99.6%)
+  Read 2 with adapter:                 241,482 (99.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):       243,544 (100.0%)
+
+Total basepairs processed:    94,388,740 bp
+  Read 1:    46,447,122 bp
+  Read 2:    47,941,618 bp
+Total written (filtered):     82,778,716 bp (87.7%)
+  Read 1:    41,356,089 bp
+  Read 2:    41,422,627 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 242597 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	0 1
+14	2	0.0	1	2
+15	1	0.0	1	1
+16	5	0.0	1	2 3
+17	7	0.0	1	3 4
+18	14	0.0	1	0 10 4
+19	227	0.0	1	22 71 134
+20	3599	0.0	2	248 3231 120
+21	238091	0.0	2	228013 9743 335
+22	647	0.0	2	43 577 27
+23	2	0.0	2	0 0 2
+43	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 241482 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2	0.2	1	2
+11	1	0.1	1	1
+12	10	0.0	1	7 3
+13	1	0.0	1	0 1
+14	4	0.0	1	4
+15	6	0.0	1	3 3
+17	4	0.0	1	0 4
+18	3	0.0	1	0 3
+19	2	0.0	1	0 2
+21	3	0.0	2	1 1 1
+22	6	0.0	2	4 0 2
+24	10	0.0	2	3 1 6
+25	83	0.0	2	6 7 70
+26	1246	0.0	2	96 1081 69
+27	239229	0.0	2	229529 8335 1365
+28	856	0.0	2	31 788 37
+29	16	0.0	2	0 0 16
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR25_S29_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR25_S29_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR25_S29_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR25_S29_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.63 s (18 µs/read; 3.38 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             35,382
+  Read 1 with adapter:                  35,143 (99.3%)
+  Read 2 with adapter:                  35,208 (99.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        35,382 (100.0%)
+
+Total basepairs processed:    13,679,031 bp
+  Read 1:     6,712,097 bp
+  Read 2:     6,966,934 bp
+Total written (filtered):     11,990,967 bp (87.7%)
+  Read 1:     5,974,529 bp
+  Read 2:     6,016,438 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 35143 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	24	0.0	1	5 4 15
+20	472	0.0	2	35 427 10
+21	34562	0.0	2	33505 1036 21
+22	85	0.0	2	7 78
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 35208 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	2
+13	1	0.0	1	1
+24	2	0.0	2	1 0 1
+25	8	0.0	2	0 0 8
+26	188	0.0	2	10 176 2
+27	34890	0.0	2	34053 771 66
+28	116	0.0	2	7 106 3
+45	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR26_S30_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR26_S30_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR26_S30_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR26_S30_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.64 s (18 µs/read; 3.31 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             35,552
+  Read 1 with adapter:                  34,833 (98.0%)
+  Read 2 with adapter:                  35,406 (99.6%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        35,552 (100.0%)
+
+Total basepairs processed:    13,609,396 bp
+  Read 1:     6,620,113 bp
+  Read 2:     6,989,283 bp
+Total written (filtered):     11,922,409 bp (87.6%)
+  Read 1:     5,888,955 bp
+  Read 2:     6,033,454 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 34833 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	2	0.0	1	1 1
+19	21	0.0	1	2 7 12
+20	430	0.0	2	23 393 14
+21	34267	0.0	2	32796 1440 31
+22	109	0.0	2	7 98 4
+23	2	0.0	2	0 0 2
+36	2	0.0	2	0 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 35406 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	1	0.0	1	0 1
+17	2	0.0	1	0 2
+21	1	0.0	2	0 1
+23	1	0.0	2	1
+24	2	0.0	2	1 0 1
+25	13	0.0	2	0 4 9
+26	185	0.0	2	5 170 10
+27	35076	0.0	2	33683 1287 106
+28	125	0.0	2	6 112 7
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR27_S31_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR27_S31_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR27_S31_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR27_S31_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.60 s (18 µs/read; 3.36 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             33,442
+  Read 1 with adapter:                  30,557 (91.4%)
+  Read 2 with adapter:                  33,301 (99.6%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        33,442 (100.0%)
+
+Total basepairs processed:    12,522,992 bp
+  Read 1:     5,822,846 bp
+  Read 2:     6,700,146 bp
+Total written (filtered):     10,982,462 bp (87.7%)
+  Read 1:     5,181,380 bp
+  Read 2:     5,801,082 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 30557 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	8	0.0	1	0 4 4
+20	316	0.0	2	22 282 12
+21	30164	0.0	2	29127 1008 29
+22	67	0.0	2	3 62 2
+38	2	0.0	2	2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 33301 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+13	1	0.0	1	1
+17	1	0.0	1	1
+22	1	0.0	2	0 1
+25	10	0.0	2	1 0 9
+26	147	0.0	2	9 122 16
+27	33009	0.0	2	29437 3356 216
+28	131	0.0	2	7 107 17
+29	1	0.0	2	0 0 1
+
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR19_S22_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR19_S22_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR19_S22_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR19_S22_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR2_S4_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR2_S4_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR2_S4_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR2_S4_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR20_S23_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR20_S23_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR20_S23_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR20_S23_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR21_S24_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR21_S24_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR21_S24_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR21_S24_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR22_S25_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR22_S25_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR22_S25_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR22_S25_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR23_S26_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR23_S26_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR23_S26_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR23_S26_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR24_S27_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR24_S27_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR24_S27_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR24_S27_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR25_S29_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR25_S29_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR25_S29_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR25_S29_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR26_S30_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR26_S30_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR26_S30_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR26_S30_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR27_S31_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR27_S31_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR27_S31_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR27_S31_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR28_S32_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR28_S32_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR28_S32_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR28_S32_L002_R2_001.fastq.gzThis is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR28_S32_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR28_S32_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR28_S32_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR28_S32_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.38 s (20 µs/read; 3.02 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             19,182
+  Read 1 with adapter:                  18,288 (95.3%)
+  Read 2 with adapter:                  18,985 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        19,182 (100.0%)
+
+Total basepairs processed:     7,367,112 bp
+  Read 1:     3,524,383 bp
+  Read 2:     3,842,729 bp
+Total written (filtered):      6,470,544 bp (87.8%)
+  Read 1:     3,140,573 bp
+  Read 2:     3,329,971 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 18288 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	1	0.0	1	0 1
+19	25	0.0	1	6 3 16
+20	241	0.0	2	20 216 5
+21	17965	0.0	2	17244 703 18
+22	56	0.0	2	2 49 5
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 18985 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+13	1	0.0	1	1
+25	3	0.0	2	1 1 1
+26	99	0.0	2	8 83 8
+27	18709	0.0	2	17234 1211 264
+28	71	0.0	2	6 59 6
+29	101	0.0	2	0 0 101
+36	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR29_S33_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR29_S33_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR29_S33_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR29_S33_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 1.06 s (21 µs/read; 2.83 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             50,054
+  Read 1 with adapter:                  15,684 (31.3%)
+  Read 2 with adapter:                  49,549 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        50,054 (100.0%)
+
+Total basepairs processed:    15,208,860 bp
+  Read 1:     3,408,290 bp
+  Read 2:    11,800,570 bp
+Total written (filtered):     13,542,215 bp (89.0%)
+  Read 1:     3,079,079 bp
+  Read 2:    10,463,136 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 15684 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	2	0.0	1	2
+19	3	0.0	1	0 0 3
+20	184	0.0	2	9 169 6
+21	15455	0.0	2	14917 525 13
+22	35	0.0	2	2 32 1
+23	5	0.0	2	0 0 5
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 49549 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	0 1
+21	1	0.0	2	0 0 1
+25	5	0.0	2	0 0 5
+26	527	0.0	2	2 61 464
+27	48848	0.0	2	14972 26650 7226
+28	165	0.0	2	1 45 119
+29	2	0.0	2	0 0 2
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR3_S5_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR3_S5_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR3_S5_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR3_S5_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.41 s (18 µs/read; 3.37 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             23,323
+  Read 1 with adapter:                  23,311 (99.9%)
+  Read 2 with adapter:                  23,163 (99.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        23,323 (100.0%)
+
+Total basepairs processed:     9,007,630 bp
+  Read 1:     4,435,743 bp
+  Read 2:     4,571,887 bp
+Total written (filtered):      7,892,848 bp (87.6%)
+  Read 1:     3,946,345 bp
+  Read 2:     3,946,503 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 23311 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	1	0.4	0	1
+19	6	0.0	1	0 1 5
+20	173	0.0	2	10 158 5
+21	23066	0.0	2	22631 413 22
+22	65	0.0	2	3 61 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 23163 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	1	0.0	2	0 0 1
+26	96	0.0	2	3 92 1
+27	22989	0.0	2	22275 614 100
+28	73	0.0	2	1 70 2
+29	4	0.0	2	0 0 4
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR30_S34_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR30_S34_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR30_S34_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR30_S34_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 4.34 s (19 µs/read; 3.10 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            223,879
+  Read 1 with adapter:                 135,041 (60.3%)
+  Read 2 with adapter:                 222,222 (99.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):       223,879 (100.0%)
+
+Total basepairs processed:    75,490,483 bp
+  Read 1:    26,595,455 bp
+  Read 2:    48,895,028 bp
+Total written (filtered):     66,654,956 bp (88.3%)
+  Read 1:    23,761,125 bp
+  Read 2:    42,893,831 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 135041 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	2	0.0	1	1 1
+18	4	0.0	1	0 4
+19	82	0.0	1	8 19 55
+20	1744	0.0	2	110 1565 69
+21	132837	0.0	2	127536 5142 159
+22	366	0.0	2	31 315 20
+23	4	0.0	2	1 1 2
+24	1	0.0	2	1
+41	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 222222 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	2
+13	1	0.0	1	0 1
+16	1	0.0	1	1
+17	2	0.0	1	1 1
+18	1	0.0	1	0 1
+22	1	0.0	2	1
+23	1	0.0	2	0 1
+24	15	0.0	2	0 8 7
+25	53	0.0	2	3 6 44
+26	1001	0.0	2	29 596 376
+27	218751	0.0	2	129464 77856 11431
+28	2377	0.0	2	16 469 1892
+29	12	0.0	2	0 0 12
+37	1	0.0	2	0 1
+38	2	0.0	2	0 0 2
+42	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR31_S35_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR31_S35_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR31_S35_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR31_S35_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 2.66 s (19 µs/read; 3.14 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            139,048
+  Read 1 with adapter:                 135,830 (97.7%)
+  Read 2 with adapter:                 137,650 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):       139,048 (100.0%)
+
+Total basepairs processed:    53,451,565 bp
+  Read 1:    25,989,163 bp
+  Read 2:    27,462,402 bp
+Total written (filtered):     46,884,515 bp (87.7%)
+  Read 1:    23,138,307 bp
+  Read 2:    23,746,208 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 135830 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	6	0.0	1	4 2
+18	6	0.0	1	3 3
+19	83	0.0	1	7 35 41
+20	1723	0.0	2	99 1492 132
+21	133656	0.0	2	128284 5174 198
+22	355	0.0	2	37 303 15
+23	1	0.0	2	0 0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 137650 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	2	0.0	1	2
+12	3	0.0	1	1 2
+16	2	0.0	1	2
+19	1	0.0	1	1
+22	1	0.0	2	0 0 1
+24	7	0.0	2	4 0 3
+25	45	0.0	2	3 6 36
+26	797	0.0	2	33 609 155
+27	136258	0.0	2	128290 6814 1154
+28	521	0.0	2	29 441 51
+29	8	0.0	2	0 0 8
+38	2	0.0	2	0 2
+48	1	0.0	2	1
+67	1	0.0	2	1
+71	1	0.0	2	0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR32_S36_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR32_S36_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR32_S36_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR32_S36_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.50 s (19 µs/read; 3.23 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             27,075
+  Read 1 with adapter:                  26,912 (99.4%)
+  Read 2 with adapter:                  26,776 (98.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        27,075 (100.0%)
+
+Total basepairs processed:    10,472,052 bp
+  Read 1:     5,151,198 bp
+  Read 2:     5,320,854 bp
+Total written (filtered):      9,184,387 bp (87.7%)
+  Read 1:     4,586,406 bp
+  Read 2:     4,597,981 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 26912 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	1
+18	2	0.0	1	2
+19	19	0.0	1	1 7 11
+20	350	0.0	2	30 316 4
+21	26502	0.0	2	25538 929 35
+22	38	0.0	2	4 31 3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 26776 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	0 1
+18	2	0.0	1	0 2
+23	1	0.0	2	1
+24	2	0.0	2	0 1 1
+25	4	0.0	2	0 1 3
+26	142	0.0	2	6 128 8
+27	26542	0.0	2	25425 956 161
+28	78	0.0	2	2 74 2
+29	3	0.0	2	0 0 3
+55	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR33_S37_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR33_S37_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR33_S37_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR33_S37_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.58 s (19 µs/read; 3.10 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             30,162
+  Read 1 with adapter:                  29,178 (96.7%)
+  Read 2 with adapter:                  29,909 (99.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        30,162 (100.0%)
+
+Total basepairs processed:    12,038,267 bp
+  Read 1:     5,823,728 bp
+  Read 2:     6,214,539 bp
+Total written (filtered):     10,618,721 bp (88.2%)
+  Read 1:     5,211,376 bp
+  Read 2:     5,407,345 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 29178 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	2	0.0	1	1 1
+19	18	0.0	1	1 8 9
+20	416	0.0	2	36 369 11
+21	28670	0.0	2	27540 1101 29
+22	72	0.0	2	3 66 3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 29909 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	0 1
+20	1	0.0	2	1
+25	5	0.0	2	0 0 5
+26	473	0.0	2	4 121 348
+27	29279	0.0	2	27312 1661 306
+28	149	0.0	2	1 135 13
+29	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR34_S38_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR34_S38_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR34_S38_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR34_S38_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.38 s (21 µs/read; 2.91 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             18,526
+  Read 1 with adapter:                  11,916 (64.3%)
+  Read 2 with adapter:                  18,180 (98.1%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        18,526 (100.0%)
+
+Total basepairs processed:     6,370,509 bp
+  Read 1:     2,374,926 bp
+  Read 2:     3,995,583 bp
+Total written (filtered):      5,629,520 bp (88.4%)
+  Read 1:     2,124,815 bp
+  Read 2:     3,504,705 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 11916 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	2	0.0	1	0 0 2
+20	148	0.0	2	8 137 3
+21	11739	0.0	2	11320 405 14
+22	27	0.0	2	0 26 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 18180 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	289.5	0	1
+4	1	72.4	0	1
+12	2	0.0	1	0 2
+17	2	0.0	1	0 2
+26	87	0.0	2	2 63 22
+27	17932	0.0	2	11354 5575 1003
+28	108	0.0	2	2 44 62
+29	47	0.0	2	0 0 47
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR35_S39_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR35_S39_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR35_S39_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR35_S39_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.10 s (24 µs/read; 2.54 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              4,177
+  Read 1 with adapter:                   3,862 (92.5%)
+  Read 2 with adapter:                   4,144 (99.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         4,177 (100.0%)
+
+Total basepairs processed:     1,576,633 bp
+  Read 1:       740,963 bp
+  Read 2:       835,670 bp
+Total written (filtered):      1,383,731 bp (87.8%)
+  Read 1:       659,912 bp
+  Read 2:       723,819 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 3862 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	3	0.0	1	0 2 1
+20	51	0.0	2	4 38 9
+21	3802	0.0	2	3633 168 1
+22	6	0.0	2	0 6
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 4144 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	0 1
+17	1	0.0	1	0 1
+25	3	0.0	2	0 0 3
+26	25	0.0	2	0 24 1
+27	4095	0.0	2	3686 363 46
+28	19	0.0	2	0 16 3
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR36_S40_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR36_S40_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR36_S40_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR36_S40_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.28 s (18 µs/read; 3.25 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             15,346
+  Read 1 with adapter:                  15,255 (99.4%)
+  Read 2 with adapter:                  15,256 (99.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        15,346 (100.0%)
+
+Total basepairs processed:     5,940,737 bp
+  Read 1:     2,919,892 bp
+  Read 2:     3,020,845 bp
+Total written (filtered):      5,208,698 bp (87.7%)
+  Read 1:     2,599,735 bp
+  Read 2:     2,608,963 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 15255 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	1	0.0	1	1
+19	7	0.0	1	1 1 5
+20	217	0.0	2	17 193 7
+21	14994	0.0	2	14544 434 16
+22	36	0.0	2	5 29 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 15256 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	8	0.0	2	0 0 8
+26	70	0.0	2	6 60 4
+27	15122	0.0	2	14548 490 84
+28	56	0.0	2	1 53 2
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR37_S41_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR37_S41_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR37_S41_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR37_S41_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.40 s (19 µs/read; 3.19 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             21,169
+  Read 1 with adapter:                  20,923 (98.8%)
+  Read 2 with adapter:                  20,964 (99.0%)
+Pairs that were too short:                   1 (0.0%)
+Pairs written (passing filters):        21,168 (100.0%)
+
+Total basepairs processed:     8,209,147 bp
+  Read 1:     4,019,513 bp
+  Read 2:     4,189,634 bp
+Total written (filtered):      7,204,046 bp (87.8%)
+  Read 1:     3,580,377 bp
+  Read 2:     3,623,669 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 20923 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	1	0.0	1	1
+19	11	0.0	1	1 9 1
+20	282	0.0	2	11 260 11
+21	20587	0.0	2	19906 663 18
+22	42	0.0	2	3 35 4
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 20964 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	0 1
+22	1	0.0	2	0 0 1
+25	13	0.0	2	2 1 10
+26	220	0.0	2	8 183 29
+27	20590	0.0	2	19711 732 147
+28	80	0.0	2	2 76 2
+29	59	0.0	2	0 0 59
+
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR29_S33_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR29_S33_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR29_S33_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR29_S33_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR3_S5_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR3_S5_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR3_S5_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR3_S5_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR30_S34_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR30_S34_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR30_S34_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR30_S34_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR31_S35_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR31_S35_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR31_S35_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR31_S35_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR32_S36_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR32_S36_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR32_S36_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR32_S36_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR33_S37_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR33_S37_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR33_S37_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR33_S37_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR34_S38_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR34_S38_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR34_S38_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR34_S38_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR35_S39_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR35_S39_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR35_S39_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR35_S39_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR36_S40_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR36_S40_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR36_S40_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR36_S40_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR37_S41_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR37_S41_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR37_S41_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR37_S41_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR38_S42_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR38_S42_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR38_S42_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR38_S42_L002_R2_001.fastq.gzThis is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR38_S42_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR38_S42_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR38_S42_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR38_S42_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 1.89 s (19 µs/read; 3.15 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             99,277
+  Read 1 with adapter:                  99,172 (99.9%)
+  Read 2 with adapter:                  98,566 (99.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        99,277 (100.0%)
+
+Total basepairs processed:    38,450,668 bp
+  Read 1:    18,937,633 bp
+  Read 2:    19,513,035 bp
+Total written (filtered):     33,707,602 bp (87.7%)
+  Read 1:    16,856,448 bp
+  Read 2:    16,851,154 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 99172 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+15	1	0.0	1	1
+16	1	0.0	1	1
+18	7	0.0	1	2 2 3
+19	92	0.0	1	14 43 35
+20	1490	0.0	2	118 1332 40
+21	97331	0.0	2	94051 3155 125
+22	249	0.0	2	25 214 10
+51	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 98566 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	4	0.4	0	4
+12	8	0.0	1	8
+14	3	0.0	1	3
+16	6	0.0	1	5 1
+19	2	0.0	1	2
+20	6	0.0	2	0 3 3
+23	4	0.0	2	1 0 3
+24	2	0.0	2	0 0 2
+25	28	0.0	2	2 8 18
+26	487	0.0	2	23 446 18
+27	97126	0.0	2	94437 2279 410
+28	360	0.0	2	8 345 7
+29	526	0.0	2	0 0 526
+51	3	0.0	2	3
+62	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR39_S43_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR39_S43_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR39_S43_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR39_S43_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.20 s (20 µs/read; 2.99 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              9,758
+  Read 1 with adapter:                   5,257 (53.9%)
+  Read 2 with adapter:                   9,699 (99.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         9,758 (100.0%)
+
+Total basepairs processed:     3,224,207 bp
+  Read 1:     1,052,092 bp
+  Read 2:     2,172,115 bp
+Total written (filtered):      2,852,018 bp (88.5%)
+  Read 1:       941,752 bp
+  Read 2:     1,910,266 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 5257 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	4	0.0	1	1 1 2
+20	58	0.0	2	5 48 5
+21	5186	0.0	2	5032 150 4
+22	9	0.0	2	1 8
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 9699 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	4	0.0	2	0 1 3
+26	59	0.0	2	1 36 22
+27	9593	0.0	2	5054 4069 470
+28	43	0.0	2	0 19 24
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR4_S6_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR4_S6_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR4_S6_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR4_S6_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.01 s (351 µs/read; 0.17 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                 30
+  Read 1 with adapter:                      26 (86.7%)
+  Read 2 with adapter:                      26 (86.7%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):            30 (100.0%)
+
+Total basepairs processed:        11,798 bp
+  Read 1:         6,064 bp
+  Read 2:         5,734 bp
+Total written (filtered):         10,551 bp (89.4%)
+  Read 1:         5,519 bp
+  Read 2:         5,032 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 26 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	1	0.0	2	0 0 1
+21	25	0.0	2	24 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 26 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+27	26	0.0	2	26
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR40_S44_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR40_S44_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR40_S44_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR40_S44_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 10.82 s (19 µs/read; 3.12 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            562,951
+  Read 1 with adapter:                 556,338 (98.8%)
+  Read 2 with adapter:                 557,465 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):       562,951 (100.0%)
+
+Total basepairs processed:   216,623,203 bp
+  Read 1:   105,984,524 bp
+  Read 2:   110,638,679 bp
+Total written (filtered):    189,897,930 bp (87.7%)
+  Read 1:    94,309,021 bp
+  Read 2:    95,588,909 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 556338 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	2	2.1	0	2
+14	1	0.0	1	1
+15	2	0.0	1	2
+16	7	0.0	1	0 7
+17	8	0.0	1	7 1
+18	24	0.0	1	9 14 1
+19	423	0.0	1	50 142 231
+20	8402	0.0	2	669 7468 265
+21	545940	0.0	2	523944 21174 822
+22	1497	0.0	2	117 1315 65
+23	13	0.0	2	2 4 7
+24	2	0.0	2	1 1
+25	1	0.0	2	0 0 1
+30	2	0.0	2	1 0 1
+31	2	0.0	2	1 0 1
+34	3	0.0	2	3
+36	2	0.0	2	2
+44	1	0.0	2	1
+47	1	0.0	2	1
+48	2	0.0	2	2
+50	2	0.0	2	2
+55	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 557465 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	8	0.0	1	5 3
+13	2	0.0	1	0 2
+14	4	0.0	1	1 3
+15	15	0.0	1	5 10
+17	5	0.0	1	1 4
+18	5	0.0	1	0 5
+19	4	0.0	1	1 3
+20	3	0.0	2	0 0 3
+21	4	0.0	2	1 2 1
+22	5	0.0	2	4 1
+23	5	0.0	2	0 2 3
+24	16	0.0	2	5 4 7
+25	207	0.0	2	2 24 181
+26	2943	0.0	2	186 2461 296
+27	552234	0.0	2	524755 23279 4200
+28	1978	0.0	2	70 1810 98
+29	17	0.0	2	0 0 17
+31	1	0.0	2	0 1
+34	1	0.0	2	0 1
+36	1	0.0	2	1
+39	1	0.0	2	1
+45	1	0.0	2	1
+49	2	0.0	2	2
+50	1	0.0	2	1
+70	1	0.0	2	1
+72	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR41_S45_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR41_S45_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR41_S45_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR41_S45_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.67 s (19 µs/read; 3.17 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             35,458
+  Read 1 with adapter:                  33,203 (93.6%)
+  Read 2 with adapter:                  35,116 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        35,458 (100.0%)
+
+Total basepairs processed:    13,427,372 bp
+  Read 1:     6,356,662 bp
+  Read 2:     7,070,710 bp
+Total written (filtered):     11,782,377 bp (87.7%)
+  Read 1:     5,659,745 bp
+  Read 2:     6,122,632 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 33203 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	23	0.0	1	2 7 14
+20	393	0.0	2	33 333 27
+21	32694	0.0	2	31282 1347 65
+22	93	0.0	2	1 90 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 35116 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+15	2	0.0	1	0 2
+16	1	0.0	1	1
+17	1	0.0	1	1
+24	1	0.0	2	0 0 1
+25	4	0.0	2	0 0 4
+26	151	0.0	2	16 125 10
+27	34826	0.0	2	31494 2771 561
+28	107	0.0	2	4 83 20
+29	23	0.0	2	0 0 23
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR42_S46_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR42_S46_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR42_S46_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR42_S46_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.84 s (20 µs/read; 2.99 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             41,931
+  Read 1 with adapter:                  41,895 (99.9%)
+  Read 2 with adapter:                  41,726 (99.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        41,931 (100.0%)
+
+Total basepairs processed:    16,162,937 bp
+  Read 1:     7,958,948 bp
+  Read 2:     8,203,989 bp
+Total written (filtered):     14,157,356 bp (87.6%)
+  Read 1:     7,079,840 bp
+  Read 2:     7,077,516 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 41895 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	1
+18	4	0.0	1	1 3
+19	47	0.0	1	4 14 29
+20	676	0.0	2	55 611 10
+21	41068	0.0	2	39885 1143 40
+22	99	0.0	2	7 91 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 41726 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+15	1	0.0	1	0 1
+17	1	0.0	1	0 1
+21	1	0.0	2	0 1
+22	1	0.0	2	0 0 1
+24	3	0.0	2	1 0 2
+25	13	0.0	2	0 2 11
+26	215	0.0	2	10 202 3
+27	41346	0.0	2	40407 836 103
+28	139	0.0	2	4 132 3
+29	3	0.0	2	0 1 2
+37	1	0.0	2	0 1
+41	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR43_S48_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR43_S48_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR43_S48_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR43_S48_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.03 s (66 µs/read; 0.90 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                404
+  Read 1 with adapter:                     200 (49.5%)
+  Read 2 with adapter:                     398 (98.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):           404 (100.0%)
+
+Total basepairs processed:       132,395 bp
+  Read 1:        41,460 bp
+  Read 2:        90,935 bp
+Total written (filtered):        117,454 bp (88.7%)
+  Read 1:        37,263 bp
+  Read 2:        80,191 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 200 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	4	0.0	2	0 4
+21	195	0.0	2	185 10
+22	1	0.0	2	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 398 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	5	0.0	2	0 0 5
+27	391	0.0	2	187 188 16
+28	1	0.0	2	0 1
+29	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR44_S49_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR44_S49_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR44_S49_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR44_S49_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.06 s (40 µs/read; 1.50 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              1,503
+  Read 1 with adapter:                     948 (63.1%)
+  Read 2 with adapter:                   1,487 (98.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         1,503 (100.0%)
+
+Total basepairs processed:       524,040 bp
+  Read 1:       192,106 bp
+  Read 2:       331,934 bp
+Total written (filtered):        464,002 bp (88.5%)
+  Read 1:       172,213 bp
+  Read 2:       291,789 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 948 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	16	0.0	2	2 11 3
+21	931	0.0	2	897 33 1
+22	1	0.0	2	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 1487 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	6	0.0	2	0 5 1
+27	1479	0.0	2	893 544 42
+28	2	0.0	2	1 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR45_S50_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR45_S50_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR45_S50_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR45_S50_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.05 s (34 µs/read; 1.76 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              1,585
+  Read 1 with adapter:                   1,431 (90.3%)
+  Read 2 with adapter:                   1,568 (98.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         1,585 (100.0%)
+
+Total basepairs processed:       594,566 bp
+  Read 1:       274,733 bp
+  Read 2:       319,833 bp
+Total written (filtered):        522,213 bp (87.8%)
+  Read 1:       244,699 bp
+  Read 2:       277,514 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 1431 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	23	0.0	2	1 22
+21	1402	0.0	2	1357 45
+22	6	0.0	2	1 5
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 1568 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	0 1
+26	7	0.0	2	0 7
+27	1557	0.0	2	1385 140 32
+28	3	0.0	2	0 3
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR46_S51_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR46_S51_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR46_S51_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR46_S51_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.23 s (20 µs/read; 2.96 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             11,330
+  Read 1 with adapter:                   6,253 (55.2%)
+  Read 2 with adapter:                  11,111 (98.1%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        11,330 (100.0%)
+
+Total basepairs processed:     3,748,292 bp
+  Read 1:     1,263,308 bp
+  Read 2:     2,484,984 bp
+Total written (filtered):      3,317,049 bp (88.5%)
+  Read 1:     1,132,068 bp
+  Read 2:     2,184,981 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 6253 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	1	0.0	1	0 0 1
+20	92	0.0	2	11 79 2
+21	6139	0.0	2	5917 221 1
+22	21	0.0	2	0 21
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 11111 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	56	0.0	2	1 33 22
+27	10999	0.0	2	6016 4293 690
+28	50	0.0	2	1 23 26
+29	6	0.0	2	0 0 6
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR47_S52_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR47_S52_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR47_S52_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR47_S52_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 1.68 s (21 µs/read; 2.81 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             78,593
+  Read 1 with adapter:                  77,073 (98.1%)
+  Read 2 with adapter:                  77,978 (99.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        78,593 (100.0%)
+
+Total basepairs processed:    30,486,107 bp
+  Read 1:    14,859,991 bp
+  Read 2:    15,626,116 bp
+Total written (filtered):     26,763,263 bp (87.8%)
+  Read 1:    13,242,351 bp
+  Read 2:    13,520,912 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 77073 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	1
+18	4	0.0	1	1 2 1
+19	42	0.0	1	1 24 17
+20	1006	0.0	2	81 899 26
+21	75835	0.0	2	73059 2687 89
+22	184	0.0	2	7 164 13
+50	1	0.0	2	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 77978 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	3	0.0	1	3
+13	1	0.0	1	0 1
+21	2	0.0	2	0 0 2
+22	1	0.0	2	0 0 1
+23	4	0.0	2	2 0 2
+24	3	0.0	2	2 0 1
+25	35	0.0	2	1 0 34
+26	472	0.0	2	29 338 105
+27	77141	0.0	2	73226 3240 675
+28	311	0.0	2	10 284 17
+29	2	0.0	2	0 0 2
+69	3	0.0	2	3
+
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR39_S43_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR39_S43_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR39_S43_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR39_S43_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR4_S6_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR4_S6_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR4_S6_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR4_S6_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR40_S44_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR40_S44_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR40_S44_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR40_S44_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR41_S45_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR41_S45_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR41_S45_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR41_S45_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR42_S46_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR42_S46_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR42_S46_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR42_S46_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR43_S48_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR43_S48_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR43_S48_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR43_S48_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR44_S49_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR44_S49_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR44_S49_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR44_S49_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR45_S50_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR45_S50_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR45_S50_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR45_S50_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR46_S51_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR46_S51_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR46_S51_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR46_S51_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR47_S52_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR47_S52_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR47_S52_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR47_S52_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR48_S53_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR48_S53_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR48_S53_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR48_S53_L002_R2_001.fastq.gzThis is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR48_S53_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR48_S53_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR48_S53_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR48_S53_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.54 s (22 µs/read; 2.71 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             24,573
+  Read 1 with adapter:                  24,494 (99.7%)
+  Read 2 with adapter:                  24,411 (99.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        24,573 (100.0%)
+
+Total basepairs processed:     9,672,942 bp
+  Read 1:     4,758,761 bp
+  Read 2:     4,914,181 bp
+Total written (filtered):      8,499,618 bp (87.9%)
+  Read 1:     4,244,712 bp
+  Read 2:     4,254,906 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 24494 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	14	0.0	1	4 2 8
+20	357	0.0	2	31 318 8
+21	24063	0.0	2	23251 794 18
+22	60	0.0	2	3 57
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 24411 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+13	1	0.0	1	1
+14	1	0.0	1	0 1
+17	1	0.0	1	0 1
+24	1	0.0	2	0 0 1
+25	4	0.0	2	0 0 4
+26	115	0.0	2	9 105 1
+27	24068	0.0	2	23339 609 120
+28	99	0.0	2	16 78 5
+29	121	0.0	2	0 0 121
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR49_S54_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR49_S54_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR49_S54_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR49_S54_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.87 s (22 µs/read; 2.72 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             39,406
+  Read 1 with adapter:                  38,883 (98.7%)
+  Read 2 with adapter:                  39,065 (99.1%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        39,406 (100.0%)
+
+Total basepairs processed:    15,583,935 bp
+  Read 1:     7,629,499 bp
+  Read 2:     7,954,436 bp
+Total written (filtered):     13,713,081 bp (88.0%)
+  Read 1:     6,813,452 bp
+  Read 2:     6,899,629 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 38883 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	4	0.0	1	3 1
+19	24	0.0	1	2 10 12
+20	519	0.0	2	47 457 15
+21	38253	0.0	2	36833 1358 62
+22	83	0.0	2	8 73 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 39065 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	1	0.0	2	0 1
+22	1	0.0	2	1
+24	5	0.0	2	2 0 3
+25	11	0.0	2	0 0 11
+26	212	0.0	2	25 171 16
+27	38613	0.0	2	36968 1399 246
+28	132	0.0	2	5 117 10
+29	90	0.0	2	0 0 90
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR5_S7_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR5_S7_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR5_S7_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR5_S7_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.43 s (22 µs/read; 2.70 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             19,281
+  Read 1 with adapter:                  19,278 (100.0%)
+  Read 2 with adapter:                  19,210 (99.6%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        19,281 (100.0%)
+
+Total basepairs processed:     7,430,940 bp
+  Read 1:     3,662,298 bp
+  Read 2:     3,768,642 bp
+Total written (filtered):      6,507,591 bp (87.6%)
+  Read 1:     3,257,577 bp
+  Read 2:     3,250,014 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 19278 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	3	0.0	1	0 1 2
+20	152	0.0	2	7 144 1
+21	19082	0.0	2	18730 332 20
+22	41	0.0	2	5 36
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 19210 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	6	0.0	2	0 0 6
+26	76	0.0	2	8 65 3
+27	19082	0.0	2	18582 443 57
+28	46	0.0	2	1 44 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR50_S55_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR50_S55_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR50_S55_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR50_S55_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.09 s (22 µs/read; 2.77 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              4,289
+  Read 1 with adapter:                   2,771 (64.6%)
+  Read 2 with adapter:                   4,252 (99.1%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         4,289 (100.0%)
+
+Total basepairs processed:     1,462,651 bp
+  Read 1:       540,058 bp
+  Read 2:       922,593 bp
+Total written (filtered):      1,289,703 bp (88.2%)
+  Read 1:       481,896 bp
+  Read 2:       807,807 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 2771 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	2	0.0	1	0 0 2
+20	35	0.0	2	3 32
+21	2724	0.0	2	2662 62
+22	10	0.0	2	2 7 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 4252 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	0 1
+25	1	0.0	2	0 0 1
+26	24	0.0	2	2 14 8
+27	4208	0.0	2	2690 1260 258
+28	18	0.0	2	0 12 6
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR51_S56_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR51_S56_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR51_S56_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR51_S56_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.04 s (37 µs/read; 1.62 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              1,121
+  Read 1 with adapter:                     817 (72.9%)
+  Read 2 with adapter:                   1,110 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         1,121 (100.0%)
+
+Total basepairs processed:       396,814 bp
+  Read 1:       159,970 bp
+  Read 2:       236,844 bp
+Total written (filtered):        349,701 bp (88.1%)
+  Read 1:       142,820 bp
+  Read 2:       206,881 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 817 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	9	0.0	2	0 9
+21	806	0.0	2	779 27
+22	2	0.0	2	0 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 1110 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	1
+25	2	0.0	2	0 0 2
+26	2	0.0	2	0 2
+27	1098	0.0	2	775 255 68
+28	2	0.0	2	1 1
+29	5	0.0	2	0 0 5
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR6_S8_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR6_S8_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR6_S8_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR6_S8_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.67 s (20 µs/read; 3.02 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             33,756
+  Read 1 with adapter:                  33,747 (100.0%)
+  Read 2 with adapter:                  33,639 (99.7%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        33,756 (100.0%)
+
+Total basepairs processed:    12,997,653 bp
+  Read 1:     6,402,670 bp
+  Read 2:     6,594,983 bp
+Total written (filtered):     11,380,920 bp (87.6%)
+  Read 1:     5,694,162 bp
+  Read 2:     5,686,758 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 33747 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	11	0.0	1	2 2 7
+20	295	0.0	2	17 271 7
+21	33303	0.0	2	32637 648 18
+22	138	0.0	2	4 132 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 33639 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	1	0.0	2	1
+25	10	0.0	2	0 0 10
+26	108	0.0	2	5 103
+27	33418	0.0	2	32659 686 73
+28	101	0.0	2	1 97 3
+29	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR7_S9_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR7_S9_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR7_S9_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR7_S9_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.90 s (22 µs/read; 2.76 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             41,493
+  Read 1 with adapter:                  41,475 (100.0%)
+  Read 2 with adapter:                  41,251 (99.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        41,493 (100.0%)
+
+Total basepairs processed:    16,172,058 bp
+  Read 1:     7,969,265 bp
+  Read 2:     8,202,793 bp
+Total written (filtered):     14,187,546 bp (87.7%)
+  Read 1:     7,098,629 bp
+  Read 2:     7,088,917 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 41475 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	648.3	0	1
+18	2	0.0	1	0 2
+19	19	0.0	1	2 2 15
+20	398	0.0	2	30 365 3
+21	40934	0.0	2	39919 978 37
+22	121	0.0	2	10 107 4
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 41251 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+13	1	0.0	1	1
+21	1	0.0	2	1
+25	8	0.0	2	0 2 6
+26	152	0.0	2	9 139 4
+27	40885	0.0	2	40020 760 105
+28	121	0.0	2	6 113 2
+29	83	0.0	2	0 0 83
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR8_S11_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR8_S11_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR8_S11_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR8_S11_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.01 s (982 µs/read; 0.06 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                 12
+  Read 1 with adapter:                      11 (91.7%)
+  Read 2 with adapter:                      10 (83.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):            12 (100.0%)
+
+Total basepairs processed:         4,640 bp
+  Read 1:         2,403 bp
+  Read 2:         2,237 bp
+Total written (filtered):          4,140 bp (89.2%)
+  Read 1:         2,173 bp
+  Read 2:         1,967 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 11 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	1	0.0	2	0 0 1
+21	10	0.0	2	10
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 10 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+27	10	0.0	2	7 2 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR9_S12_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR9_S12_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR9_S12_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR9_S12_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.67 s (19 µs/read; 3.09 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             34,652
+  Read 1 with adapter:                  34,647 (100.0%)
+  Read 2 with adapter:                  34,549 (99.7%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        34,652 (100.0%)
+
+Total basepairs processed:    13,348,887 bp
+  Read 1:     6,573,585 bp
+  Read 2:     6,775,302 bp
+Total written (filtered):     11,688,844 bp (87.6%)
+  Read 1:     5,846,250 bp
+  Read 2:     5,842,594 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 34647 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	16	0.0	1	0 8 8
+20	331	0.0	2	16 306 9
+21	34189	0.0	2	33528 647 14
+22	111	0.0	2	4 106 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 34549 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	2	0.0	2	2
+25	14	0.0	2	0 1 13
+26	173	0.0	2	9 162 2
+27	34268	0.0	2	33671 572 25
+28	92	0.0	2	3 87 2
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P1_S57_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P1_S57_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P1_S57_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P1_S57_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.04 s (50 µs/read; 1.19 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                866
+  Read 1 with adapter:                     720 (83.1%)
+  Read 2 with adapter:                     861 (99.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):           866 (100.0%)
+
+Total basepairs processed:       324,916 bp
+  Read 1:       142,705 bp
+  Read 2:       182,211 bp
+Total written (filtered):        286,561 bp (88.2%)
+  Read 1:       127,595 bp
+  Read 2:       158,966 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 720 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	1	0.0	1	0 0 1
+20	9	0.0	2	0 9
+21	709	0.0	2	691 18
+22	1	0.0	2	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 861 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	1	0.0	2	0 0 1
+26	5	0.0	2	0 3 2
+27	850	0.0	2	695 131 24
+28	5	0.0	2	0 1 4
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P2_S58_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P2_S58_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P2_S58_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P2_S58_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.78 s (20 µs/read; 3.04 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             39,465
+  Read 1 with adapter:                  30,585 (77.5%)
+  Read 2 with adapter:                  39,153 (99.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        39,465 (100.0%)
+
+Total basepairs processed:    14,495,668 bp
+  Read 1:     6,094,983 bp
+  Read 2:     8,400,685 bp
+Total written (filtered):     12,796,743 bp (88.3%)
+  Read 1:     5,453,075 bp
+  Read 2:     7,343,668 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 30585 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	616.6	0	1
+16	2	0.0	1	2
+18	3	0.0	1	0 3
+19	15	0.0	1	2 6 7
+20	387	0.0	2	18 352 17
+21	30111	0.0	2	28767 1280 64
+22	64	0.0	2	2 60 2
+23	1	0.0	2	0 0 1
+32	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 39153 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	4	0.0	2	3 0 1
+25	10	0.0	2	0 1 9
+26	217	0.0	2	11 159 47
+27	38788	0.0	2	29072 8509 1207
+28	133	0.0	2	5 95 33
+29	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P3_S59_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P3_S59_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P3_S59_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P3_S59_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.12 s (26 µs/read; 2.33 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              4,787
+  Read 1 with adapter:                   4,727 (98.7%)
+  Read 2 with adapter:                   4,769 (99.6%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         4,787 (100.0%)
+
+Total basepairs processed:     1,865,258 bp
+  Read 1:       911,378 bp
+  Read 2:       953,880 bp
+Total written (filtered):      1,637,309 bp (87.8%)
+  Read 1:       812,160 bp
+  Read 2:       825,149 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 4727 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	64	0.0	2	5 59
+21	4648	0.0	2	4470 171 7
+22	15	0.0	2	1 12 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 4769 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	2
+25	3	0.0	2	0 0 3
+26	15	0.0	2	0 13 2
+27	4730	0.0	2	4559 152 19
+28	19	0.0	2	1 18
+
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR49_S54_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR49_S54_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR49_S54_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR49_S54_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR5_S7_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR5_S7_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR5_S7_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR5_S7_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR50_S55_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR50_S55_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR50_S55_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR50_S55_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR51_S56_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR51_S56_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR51_S56_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR51_S56_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR6_S8_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR6_S8_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR6_S8_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR6_S8_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR7_S9_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR7_S9_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR7_S9_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR7_S9_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR8_S11_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR8_S11_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR8_S11_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR8_S11_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR9_S12_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_CR9_S12_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR9_S12_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_CR9_S12_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P1_S57_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P1_S57_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P1_S57_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P1_S57_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P2_S58_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P2_S58_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P2_S58_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P2_S58_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P3_S59_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P3_S59_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P3_S59_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P3_S59_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P4_S60_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P4_S60_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P4_S60_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P4_S60_L002_R2_001.fastq.gzThis is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P4_S60_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/LETE_2022_P4_S60_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P4_S60_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/LETE_2022_P4_S60_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.34 s (21 µs/read; 2.89 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             16,522
+  Read 1 with adapter:                  16,388 (99.2%)
+  Read 2 with adapter:                  16,379 (99.1%)
+Pairs that were too short:                   1 (0.0%)
+Pairs written (passing filters):        16,521 (100.0%)
+
+Total basepairs processed:     6,399,175 bp
+  Read 1:     3,140,943 bp
+  Read 2:     3,258,232 bp
+Total written (filtered):      5,613,073 bp (87.7%)
+  Read 1:     2,797,016 bp
+  Read 2:     2,816,057 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 16388 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	1	0.0	1	1
+19	17	0.0	1	4 2 11
+20	250	0.0	2	16 228 6
+21	16071	0.0	2	15362 673 36
+22	49	0.0	2	2 45 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 16379 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	1	0.0	2	1
+22	1	0.0	2	0 1
+25	13	0.0	2	0 3 10
+26	73	0.0	2	10 61 2
+27	16239	0.0	2	15694 468 77
+28	51	0.0	2	0 51
+29	1	0.0	2	0 0 1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/MOCK_21_S1_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/MOCK_21_S1_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/MOCK_21_S1_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/MOCK_21_S1_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 1.37 s (19 µs/read; 3.24 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             74,096
+  Read 1 with adapter:                  74,061 (100.0%)
+  Read 2 with adapter:                  73,735 (99.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        74,096 (100.0%)
+
+Total basepairs processed:    28,850,399 bp
+  Read 1:    14,209,739 bp
+  Read 2:    14,640,660 bp
+Total written (filtered):     25,305,306 bp (87.7%)
+  Read 1:    12,655,578 bp
+  Read 2:    12,649,728 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 74061 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+15	1	0.0	1	0 1
+16	2	0.0	1	1 1
+17	1	0.0	1	1
+18	8	0.0	1	3 5
+19	90	0.0	1	14 28 48
+20	1152	0.0	2	80 1051 21
+21	72579	0.0	2	70351 2161 67
+22	226	0.0	2	16 204 6
+25	1	0.0	2	1
+47	1	0.0	2	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 73735 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+15	1	0.0	1	0 1
+17	1	0.0	1	1
+21	1	0.0	2	1
+23	1	0.0	2	1
+24	2	0.0	2	0 2
+25	30	0.0	2	0 3 27
+26	378	0.0	2	24 346 8
+27	72895	0.0	2	71459 1292 144
+28	278	0.0	2	12 260 6
+29	146	0.0	2	0 0 146
+35	1	0.0	2	1
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-1_S2_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-1_S2_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-1_S2_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-1_S2_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.01 s (147 µs/read; 0.41 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                 94
+  Read 1 with adapter:                       1 (1.1%)
+  Read 2 with adapter:                      93 (98.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):            94 (100.0%)
+
+Total basepairs processed:        24,403 bp
+  Read 1:           809 bp
+  Read 2:        23,594 bp
+Total written (filtered):         21,889 bp (89.7%)
+  Read 1:           806 bp
+  Read 2:        21,083 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 1 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	1.5	0	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 93 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+27	93	0.0	2	0 80 13
+This is cutadapt 3.4 with Python 3.8.8
+Command line parameters: --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-2_S96_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-2_S96_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-2_S96_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-2_S96_L002_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 0.24 s (28 µs/read; 2.17 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              8,707
+  Read 1 with adapter:                       0 (0.0%)
+  Read 2 with adapter:                   8,617 (99.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         8,707 (100.0%)
+
+Total basepairs processed:     2,259,938 bp
+  Read 1:        75,261 bp
+  Read 2:     2,184,677 bp
+Total written (filtered):      2,027,292 bp (89.7%)
+  Read 1:        75,261 bp
+  Read 2:     1,952,031 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: GTCGGTAAAACTCGTGCCAGC; Type: regular 5'; Length: 21; Trimmed: 0 times
+
+=== Second read: Adapter 2 ===
+
+Sequence: CATAGTGGGGTATCTAATCCCAGTTTG; Type: regular 5'; Length: 27; Trimmed: 8617 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	40	0.0	2	0 3 37
+27	8550	0.0	2	27 7053 1470
+28	27	0.0	2	0 5 22
+
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/MOCK_21_S1_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/MOCK_21_S1_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/MOCK_21_S1_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/MOCK_21_S1_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-1_S2_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-1_S2_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-1_S2_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-1_S2_L002_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 1 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-2_S96_L002_R1_001.fastq.gz -p /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/q2-CasavaOneEightSingleLanePerSampleDirFmt-dpbf9y04/PCR_BLANK_21-2_S96_L002_R2_001.fastq.gz --front GTCGGTAAAACTCGTGCCAGC -G CATAGTGGGGTATCTAATCCCAGTTTG /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-2_S96_L002_R1_001.fastq.gz /var/folders/0y/c5hm9rnx4y56dmjr2nmmtt5r0000gn/T/qiime2-archive-2qw7stlw/c8e629a0-ddaf-4713-8281-8c658553b3cf/data/PCR_BLANK_21-2_S96_L002_R2_001.fastq.gz
+
+Saved SampleData[PairedEndSequencesWithQuality] to: trimd2_Plate1.qza
