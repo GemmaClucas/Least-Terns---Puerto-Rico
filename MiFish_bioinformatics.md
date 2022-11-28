@@ -128,13 +128,137 @@ method. The blast method uses an older version of qiime.
     qiime metadata tabulate \
       --m-input-file superblast_taxonomy.qza \
       --o-visualization superblast_taxonomy
+      
+    qiime feature-table tabulate-seqs \
+      --i-data rep-seqs_Plate1.qza \
+      --o-visualization rep-seqs_Plate1
 
 ## 5. Make barplots
 
-MAKE METADATA FILE
+    conda activate qiime2-2021.4
 
     qiime taxa barplot \
-      --i-table table_merged.qza \
+      --i-table table_Plate1.qza \
       --i-taxonomy superblast_taxonomy.qza \
       --m-metadata-file metadata.txt \
       --o-visualization barplot_before_filtering.qzv
+
+Not too much bird or human DNA in here, but lots of fish diversity. It
+will take me a while to sort through all these IDs.
+
+E.g. Thysochromis ansorgii is the most common species but it is only a
+90% match. Seems like this is possibly a fish in the Antherinidae
+family, the old word silversides, which are found in coastal waters in
+tropical and temperate latitides. However, these seem to be mostly found
+in the Old World, so probably safest to just say it is something in the
+order Antheriniformes (silversides).
+
+## 6. Remove non-food reads
+
+I need to filter out any sequences from the bird, mammals, and
+unnassigned sequences before rarefying.
+
+    qiime taxa filter-table \
+      --i-table table_Plate1.qza \
+      --i-taxonomy superblast_taxonomy.qza \
+      --p-exclude Unassigned,Aves,Mammalia \
+      --o-filtered-table table_Plate1_noBirdsMammalsUnassigned.qza
+      
+    qiime feature-table summarize \
+        --i-table table_Plate1_noBirdsMammalsUnassigned.qza \
+        --m-sample-metadata-file metadata.txt \
+        --o-visualization table_Plate1_noBirdsMammalsUnassigned
+
+## 7. Calculate rarefaction curves
+
+Samples range from 3 reads to 500,000. I don’t want to go lower than 100
+and I’ll set the upper limit to 20,000.
+
+    qiime taxa collapse \
+      --i-table table_Plate1_noBirdsMammalsUnassigned.qza \
+      --i-taxonomy superblast_taxonomy.qza \
+      --p-level 7 \
+      --o-collapsed-table table_Plate1_noBirdsMammalsUnassigned_collapsed.qza
+
+    qiime diversity alpha-rarefaction \
+      --i-table table_Plate1_noBirdsMammalsUnassigned_collapsed.qza \
+      --m-metadata-file metadata.txt \
+      --p-min-depth 100 \
+      --p-max-depth 20000 \
+      --o-visualization alpha-rarefaction-100-20000
+
+It does look like there is high diversity in these samples so I probably
+need a higher depth than in the Gulf of Maine terns. If you look at all
+samples together, then they plateau at about 6500 sequences -\> redo the
+rarefaction from 100 to 10,000
+
+    qiime diversity alpha-rarefaction \
+      --i-table table_Plate1_noBirdsMammalsUnassigned_collapsed.qza \
+      --m-metadata-file metadata.txt \
+      --p-min-depth 100 \
+      --p-max-depth 8000 \
+      --o-visualization alpha-rarefaction-100-8000
+
+By 5500 samples have plateaued.
+
+## 8. Rarefy to a depth of 5500
+
+And redo the barplots.
+
+    qiime feature-table rarefy \
+      --i-table table_Plate1_noBirdsMammalsUnassigned.qza \
+      --p-sampling-depth 5500 \
+      --o-rarefied-table table_Plate1_noBirdsMammalsUnassigned_rarefied5500 
+      
+    qiime taxa barplot\
+      --i-table table_Plate1_noBirdsMammalsUnassigned_rarefied5500.qza \
+      --i-taxonomy superblast_taxonomy.qza \
+      --m-metadata-file metadata.txt \
+      --o-visualization barplot_Plate1_noBirdsMammalsUnassigned_rarefied5500
+
+## 9. Check taxonomy assignments
+
+Had to make a lot of edits as it seems like there are a lot of sequences
+that are good matches to many species.
+
+-   Harengula jaguana - good, sacled herring.
+-   Thysochromis ansorgii - changed to order Atheriniformes sp.,
+    silversides.
+-   Jenkinsia lamprotaenia - good, dwarf round herring.
+-   Ctenogobius boleosoma - changed to subfamily Gobionellinae, gobies.
+-   Kyphosus incisor - changed to Kyphosus sp., sea chubs.
+-   Hyporhamphus yuri - changed to Hemiramphidae, halfbeaks (90% is
+    closest match).
+-   Elagatis bipinnulata - good, rainbow runner.
+-   Cheilopogon antoncichi - changed to family Exocoetidae, flying fish.
+-   Carangoides bartholomaei - changed to Caranx crysos, blue runner.
+-   Anchoa;s\_\_hepsetus - changed to Anchoa sp., anchovy.
+-   Seriola rivoliana - good, longfin yellowtail.
+-   Cephalopholis;s\_\_leopardus - changed to Eucinostomus gula, Jenny
+    mojarra
+-   Hemiramphus lutkei - changed to Hemiramphus sp., halfbeaks (99%
+    match to multiple species in the genus)
+-   Kyphosus bigibbus - added Kyphosus sp., sea chubs.
+-   Mulloidichthys vanicolensis - changed to Mulloidichthys sp.,
+    goatfish.
+-   Stegastes planifrons - changed to Pomacentridae sp., damselfishes.
+-   Coryphaena hippurus - good, common dolphonfish.
+-   Craterocephalus;s\_\_fluviatilis - added to the Atherininae,
+    silversides.
+-   Engraulis encrasicolus - chnaged to Engraulis sp., anchovy.
+-   Eleutheronema rhadinum - changed to Polynemidae sp., threadfins.
+-   Tylosurus crocodilus crocodilus - good, hound needlefish.
+-   Hemiramphus far - added to Hemiramphus sp. as not found in Atlantic.
+-   Abudefduf saxatilis - changed to Abudefduf sp., seargent majors
+-   Anchoa delicatissima - added to Anchoa sp., anchovy
+-   Exocoetus monocirrhus - added to family Exocoetidae, flying fish.
+-   Trachinotus;s\_\_mookalee - changed to Trachinotus sp., pompanos.
+-   Hyporhamphus quoyi - added to Hemiramphidae, halfbeaks.
+-   Hirundichthys oxycephalus - added to family Exocoetidae, flying
+    fish.
+-   Gerres cinereus - good, yellow-fin mojarra.
+-   Cheilopogon doederleinii - added to family Exocoetidae, flying fish.
+-   Gambusia affinis - changed to Gambusia sp., mosquitofishes.
+-   Exocoetus volitans - added to family Exocoetidae, flying fish.
+
+I sent the data over to Luis as both presence/absence and RRA
